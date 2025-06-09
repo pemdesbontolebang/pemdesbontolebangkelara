@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Desa</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-green-700 text-white p-4">
+    <div class="container mx-auto">
+      <h1 class="text-3xl font-bold">Desa Contoh</h1>
+      <p class="text-sm">Kecamatan Contoh, Kabupaten Contoh, Provinsi Contoh</p>
+    </div>
+  </header>
+
+  <nav class="bg-green-600 text-white p-2">
+    <div class="container mx-auto flex space-x-4">
+      <a href="#" class="hover:underline">Beranda</a>
+      <a href="#profil" class="hover:underline">Profil Desa</a>
+      <a href="#struktur" class="hover:underline">Struktur Pemerintah</a>
+      <a href="#berita" class="hover:underline">Berita</a>
+      <a href="#galeri" class="hover:underline">Galeri</a>
+      <a href="#agenda" class="hover:underline">Agenda</a>
+      <a href="#pengaduan" class="hover:underline">Pengaduan</a>
+      <a href="#kontak" class="hover:underline">Kontak</a>
+    </div>
+  </nav>
+
+  <main class="container mx-auto p-4">
+    <section id="profil" class="mb-8">
+      <h2 class="text-2xl font-bold mb-2">Profil Desa</h2>
+      <p>Desa Contoh adalah desa yang terletak di Kecamatan Contoh, Kabupaten Contoh. Desa ini memiliki sejarah panjang dan budaya yang kaya.</p>
+    </section>
+
+    <!-- Struktur Pemerintah Desa (existing content skipped for brevity) -->
+
+    <section id="berita" class="mb-8">
+      <h2 class="text-2xl font-bold mb-2">Berita Terbaru</h2>
+      <ul class="list-disc ml-6">
+        <li>Pelatihan UMKM akan diadakan minggu depan.</li>
+        <li>Gotong royong bersih desa setiap hari Jumat.</li>
+      </ul>
+    </section>
+
+    <section id="galeri" class="mb-8">
+      <h2 class="text-2xl font-bold mb-2">Galeri</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <img src="https://via.placeholder.com/150" alt="Foto 1" class="rounded shadow" />
+        <img src="https://via.placeholder.com/150" alt="Foto 2" class="rounded shadow" />
+      </div>
+    </section>
+
+    <section id="agenda" class="mb-8">
+      <h2 class="text-2xl font-bold mb-2">Agenda Kegiatan Desa</h2>
+      <ul class="list-disc ml-6">
+        <li>15 Juni 2025 - Rapat Musyawarah Desa</li>
+        <li>20 Juni 2025 - Pelatihan Digitalisasi UMKM</li>
+        <li>25 Juni 2025 - Lomba Kebersihan Antar RT</li>
+      </ul>
+    </section>
+
+    <section id="pengaduan" class="mb-8">
+      <h2 class="text-2xl font-bold mb-2">Form Pengaduan Masyarakat</h2>
+      <form action="https://script.google.com/macros/s/PASTE-URL-DI-SINI/exec" method="POST" target="_blank" class="bg-white p-4 rounded shadow space-y-4">
+        <div>
+          <label class="block text-sm font-semibold">Nama Lengkap</label>
+          <input name="nama" type="text" class="w-full border border-gray-300 rounded p-2" placeholder="Masukkan nama Anda" required>
+        </div>
+        <div>
+          <label class="block text-sm font-semibold">Nomor Telepon / WA</label>
+          <input name="telepon" type="text" class="w-full border border-gray-300 rounded p-2" placeholder="Masukkan nomor aktif" required>
+        </div>
+        <div>
+          <label class="block text-sm font-semibold">Isi Pengaduan</label>
+          <textarea name="pengaduan" class="w-full border border-gray-300 rounded p-2" rows="4" placeholder="Tulis pengaduan Anda di sini" required></textarea>
+        </div>
+        <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Kirim Pengaduan</button>
+      </form>
+    </section>
+
+    <section id="kontak" class="mb-8">
+      <h2 class="text-2xl font-bold mb-2">Kontak Desa</h2>
+      <p>Alamat: Jl. Raya Desa Contoh No.1</p>
+      <p>Telepon: 0812-3456-7890</p>
+      <p>Email: info@desacontoh.id</p>
+    </section>
+  </main>
+
+  <footer class="bg-green-700 text-white text-center p-4">
+    &copy; 2025 Desa Contoh. All rights reserved.
+  </footer>
+</body>
+</html>
